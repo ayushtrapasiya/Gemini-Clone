@@ -1,0 +1,27 @@
+.App{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  color: white;
+}
+.sidebar-part {
+  height: 100vh;
+  width: 5%;
+  background-color: rgba(0, 0, 0, 0.74);
+  transition: all 0.5s ease;
+}
+.toggle-sidebar {
+  height: 100vh;
+  width: 20% !important;
+  background-color: rgba(0, 0, 0, 0.74);
+  transition: all 0.5s ease;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: start !important;
+}
+.right-part{
+  background-color: #262525;
+  width: 100%;
+  height: 100vh;
+}
